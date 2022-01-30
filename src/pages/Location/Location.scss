@@ -1,0 +1,12 @@
+.container-location{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin:0;
+    background-image: url('https://res.cloudinary.com/bertus/image/upload/v1643571928/RickandMorty/S1e10_hideout_planet_mtlle8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    .container-location-1{
+        width: 20vw;
+    }
+}

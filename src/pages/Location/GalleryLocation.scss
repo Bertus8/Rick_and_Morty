@@ -1,0 +1,15 @@
+.container-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+   
+    .container-text-1{
+        text-align: center;
+        width: 20vw;
+        margin:20px;
+        color:white;
+        background-color: rgba(0, 0, 0, 0.479);
+        padding: 10px;
+    }
+}
