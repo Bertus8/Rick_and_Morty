@@ -7,9 +7,8 @@ const Pagination = ({getData}) => {
         getData(newPage);
         setActualPage(newPage);
     }
-  return <div>
-      <button className="noselect red"  onClick={() => changePage(actualPage - 1 ? actualPage > 1 : actualPage - 0)}>{"PREVIUS"}</button>
-      <span>{actualPage}</span>
+  return <div className='div-button'>
+      <button className="noselect red"  onClick={() => changePage(actualPage - 1)}>{"PREVIUS"}</button>
       <button className="noselect red" onClick={() => changePage(actualPage + 1)}>{"NEXT"}</button>
   </div>;
 };
