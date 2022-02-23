@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { generatePath } from 'react-router-dom';
 
 export default function Gallery({list}){
-    const {setProfile} = useContext(ProfileContext);
+    /*const {setProfile} = useContext(ProfileContext);*/
     return(<div className='container-gallery'>
     {list.map(item => <div key={item.id}>
     <Link to={generatePath("/characters/:id", { id: item.id })}>
@@ -14,7 +14,7 @@ export default function Gallery({list}){
     </Link>
     <div className='container-text'> 
     <h3>{item.name}</h3>
-    <button onClick={() => setProfile(item)}>Mutar</button>
+    <button /*onClick={() => setProfile(item)*/>Mutar</button>
 
   
    
