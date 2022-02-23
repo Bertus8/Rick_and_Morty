@@ -22,9 +22,9 @@ const CharacterDetail = () => {
           <img className='img' src={character.image} alt={character.name} />
       </div>
       <ul>
-        <li>{character.status}</li>
-        <li>{character.species}</li>
-        <li>{character.gender}</li>
+        <li><strong>Status: </strong>{character.status}</li>
+        <li><strong>Specie: </strong>{character.species}</li>
+        <li><strong>Gender: </strong>{character.gender}</li>
     </ul>
 
   </div>;

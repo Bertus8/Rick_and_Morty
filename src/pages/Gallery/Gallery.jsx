@@ -1,7 +1,7 @@
 import React from 'react';
 import './Gallery.scss';
 import { ProfileContext} from '../Context/ProfileContext'
-import { useContext } from 'react/cjs/react.development';
+import { useContext } from '/react/cjs/react.development';
 import { Link } from 'react-router-dom';
 import { generatePath } from 'react-router-dom';
 
